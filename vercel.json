@@ -1,5 +1,5 @@
 {
-  "buildCommand": null,
+  "buildCommand": "",
   "outputDirectory": "public",
   "rewrites": [
     { "source": "/terms.html", "destination": "/terms.html" },
