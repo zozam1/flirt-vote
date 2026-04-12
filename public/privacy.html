@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>개인정보 처리방침 - 이게 플러팅이야?</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+      background: #1a0a2e;
+      color: rgba(255,255,255,0.85);
+      line-height: 1.7;
+      padding: 0 0 60px;
+    }
+    .header {
+      background: linear-gradient(135deg, #ff5fb0, #a020f0);
+      padding: 40px 24px 32px;
+      color: #fff;
+    }
+    .header h1 { font-size: 22px; font-weight: 900; margin-bottom: 6px; }
+    .header p { font-size: 13px; opacity: .8; }
+    .content { max-width: 640px; margin: 0 auto; padding: 28px 24px; }
+    h2 {
+      font-size: 15px; font-weight: 800; color: #ff5fb0;
+      margin: 32px 0 10px; padding-bottom: 6px;
+      border-bottom: 1.5px solid rgba(255,95,176,0.25);
+    }
+    h2:first-child { margin-top: 0; }
+    p { font-size: 14px; color: rgba(255,255,255,0.75); margin-bottom: 8px; word-break: keep-all; }
+    ul { padding-left: 18px; margin-bottom: 8px; }
+    li { font-size: 14px; color: rgba(255,255,255,0.75); margin-bottom: 4px; word-break: keep-all; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 12px; font-size: 13px; }
+    th { background: rgba(255,95,176,0.15); color: #ff5fb0; font-weight: 700; padding: 8px 10px; border: 1px solid rgba(255,95,176,0.2); text-align: left; }
+    td { padding: 8px 10px; border: 1px solid rgba(255,95,176,0.2); color: rgba(255,255,255,0.75); vertical-align: top; }
+    .date { font-size: 13px; color: rgba(255,255,255,0.4); margin-top: 40px; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>💬 이게 플러팅이야?</h1>
+    <p>개인정보 처리방침</p>
+  </div>
+  <div class="content">
+
+    <h2>제1조 (수집하는 정보)</h2>
+    <p>이게 플러팅이야? 서비스(이하 "서비스")는 다음과 같은 정보를 처리합니다.</p>
+    <table>
+      <tr><th>항목</th><th>목적</th><th>보관 장소</th></tr>
+      <tr><td>투표 선택 데이터 (익명)</td><td>투표 통계 집계 및 결과 표시</td><td>Firebase Firestore (익명 처리)</td></tr>
+      <tr><td>이용자 제안 텍스트</td><td>새로운 상황 제안 수집</td><td>Firebase Firestore</td></tr>
+    </table>
+    <p>투표 데이터는 개인을 식별할 수 없는 형태로 저장됩니다.</p>
+
+    <h2>제2조 (Firebase 데이터 처리)</h2>
+    <p>서비스는 투표 데이터 저장을 위해 Google Firebase(Firestore)를 사용합니다. Firebase의 데이터 처리에 관해서는 Google의 개인정보 처리방침을 따릅니다.</p>
+
+    <h2>제3조 (광고)</h2>
+    <p>서비스는 토스 광고 플랫폼(Toss Ads)을 통해 배너 광고를 제공합니다. 광고 플랫폼의 데이터 처리에 관해서는 토스의 개인정보 처리방침을 따릅니다.</p>
+
+    <h2>제4조 (개인정보의 제3자 제공)</h2>
+    <p>서비스는 이용자의 개인정보를 제3자에게 제공하지 않습니다. 단, Firebase를 통한 데이터 저장 시 Google의 처리방침이 적용됩니다.</p>
+
+    <h2>제5조 (데이터 보유 기간)</h2>
+    <p>투표 통계 데이터는 서비스 운영 기간 동안 보관되며, 서비스 종료 시 삭제됩니다.</p>
+
+    <h2>제6조 (이용자의 권리)</h2>
+    <ul>
+      <li>투표 데이터는 익명으로 처리되어 개인 식별이 불가능합니다.</li>
+      <li>이용자 제안 삭제 요청은 토스 미니앱 내 문의 채널을 통해 접수할 수 있습니다.</li>
+    </ul>
+
+    <h2>제7조 (개인정보 처리방침 변경)</h2>
+    <p>본 방침은 법령 또는 서비스 변경에 따라 수정될 수 있으며, 변경 시 서비스 내에 공지됩니다.</p>
+
+    <h2>제8조 (문의)</h2>
+    <p>개인정보 처리 관련 문의사항은 토스 미니앱 내 문의 채널을 통해 접수할 수 있습니다.</p>
+
+    <p class="date">시행일: 2026년 4월 12일</p>
+  </div>
+</body>
+</html>
